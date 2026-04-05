@@ -84,8 +84,6 @@
    <img src="./.github/assets/screenshots/notification_center.png" style="margin-bottom: 15px;" /> <br>
 </details>
 
-You can find my previous Catppuccin rice [here](https://github.com/Frost-Phoenix/nixos-config/tree/catppuccin) (outdated).
-
 # 🗃️ Overview
 
 > [!IMPORTANT]
