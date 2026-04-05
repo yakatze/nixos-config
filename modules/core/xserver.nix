@@ -1,0 +1,26 @@
+{ username, ... }:
+{
+  services = {
+    xserver = {
+      enable = true;
+      xkb.layout = "us,ru";
+    };
+
+    displayManager.autoLogin = {
+      enable = true;
+      user = "${username}";
+    };
+    libinput = {
+      enable = true;
+    };
+  };
+  # To prevent getting stuck at shutdown
+  systemd.settings.Manager.DefaultTimeoutStopSec = "10s";
+  
+  services.xserver.videoDrivers = [ "nvidia" ];
+
+  hardware.nvidia = {
+    open = true;
+  };
+  
+}
