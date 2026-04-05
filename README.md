@@ -281,7 +281,7 @@ programs.git = {
 Other dotfiles that I ~~copied~~ learned from:
 
 - Nix Flakes
-  - [Frost-Phoenix/nixos-config] (https://github.com/Frost-Phoenix/nixos-config): base config
+  - [Frost-Phoenix/nixos-config](https://github.com/Frost-Phoenix/nixos-config): base config
   - [nomadics9/NixOS-Flake](https://github.com/nomadics9/NixOS-Flake): This is where I start my nixos / hyprland journey.
   - [samiulbasirfahim/Flakes](https://github.com/samiulbasirfahim/Flakes): General flake / files structure
   - [justinlime/dotfiles](https://github.com/justinlime/dotfiles): Mainly waybar (old design)
